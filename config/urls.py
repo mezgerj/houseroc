@@ -15,11 +15,9 @@ urlpatterns = [
     # User management
     path("users/", include("houseroc.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
-    path("blog/",include("houseroc.urls"))
+    path("blog/", include("houseroc.urls"))
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-
 
 
 if settings.DEBUG:

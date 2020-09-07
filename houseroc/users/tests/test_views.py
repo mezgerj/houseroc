@@ -5,11 +5,7 @@ from django.test import RequestFactory
 
 from houseroc.users.models import User
 from houseroc.users.tests.factories import UserFactory
-from houseroc.users.views import (
-    UserRedirectView,
-    UserUpdateView,
-    user_detail_view,
-)
+from houseroc.users.views import UserRedirectView, UserUpdateView, user_detail_view
 
 pytestmark = pytest.mark.django_db
 
