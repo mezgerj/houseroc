@@ -1,7 +1,0 @@
-# PostgreSQL
-# ------------------------------------------------------------------------------
-POSTGRES_HOST=postgres
-POSTGRES_PORT=5432
-POSTGRES_DB=houseroc
-POSTGRES_USER=tIjVeMurRSqbFCkHcskyXFPOWVzMfjzS
-POSTGRES_PASSWORD=8brM98aevcFR2BtC9W3TfWnQ0mKTi8p0W8O38NVWkLIoW7tQ4geBasdc3qtjgrDO
